@@ -1,4 +1,5 @@
 import { AnimatedBar, SectionHeader, comparisonData, removalData } from './shared';
+import FilteredWater from './FilteredWater';
 
 export default function ComparisonAndConclusions() {
   return (
@@ -83,9 +84,11 @@ export default function ComparisonAndConclusions() {
         </div>
       </section>
 
-      {/* 08 — Выводы */}
+      <FilteredWater />
+
+      {/* 09 — Выводы */}
       <section id="conclusions" className="py-16 pb-24">
-        <SectionHeader num="08" title="Итоги и выводы исследования" />
+        <SectionHeader num="09" title="Итоги и выводы исследования" />
         <div className="mt-8 grid md:grid-cols-2 gap-8">
           <div className="space-y-4">
             {[

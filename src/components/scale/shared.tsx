@@ -8,7 +8,8 @@ export const sections = [
   { id: 'engineering', num: '05', title: 'Инженерные решения', short: 'Инженерия' },
   { id: 'maintenance', num: '06', title: 'Рекомендации', short: 'Обслуживание' },
   { id: 'comparison', num: '07', title: 'Сравнительный анализ', short: 'Сравнение' },
-  { id: 'conclusions', num: '08', title: 'Итоги и выводы', short: 'Выводы' },
+  { id: 'filtered-water', num: '08', title: 'Применение фильтрованной воды', short: 'Фильтр. вода' },
+  { id: 'conclusions', num: '09', title: 'Итоги и выводы', short: 'Выводы' },
 ];
 
 export const comparisonData = [
